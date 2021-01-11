@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstApp.MainPage">
+
+    <StackLayout>
+        <Label VerticalOptions="Start" HorizontalOptions="Start"  Margin="89,23,0,0">Welcome, enter your name.</Label>
+        <Entry x:Name="Entry"></Entry>
+        <Button x:Name="Button" Text="Say hello!"></Button>
+    </StackLayout>
+
+</ContentPage>
